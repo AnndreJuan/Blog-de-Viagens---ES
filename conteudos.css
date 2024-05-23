@@ -96,7 +96,7 @@ body {
     color: var(--cc-text);
 }
 
-.main__container__prais {
+.main__container__content {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -107,13 +107,13 @@ body {
     gap: 10vh;
 }
 
-.main__container__prais__tittle {
+.main__container__content__tittle {
     font-size: 4rem;
     font-weight: 600;
     text-transform: uppercase;
 }
 
-.main__container__prais__paragraph {
+.main__container__content__paragraph {
     padding: 0% 10%;
     text-align: justify;
 }
@@ -216,6 +216,24 @@ hr {
 .footer .activity, .footer .creator {
     font-size: 18px;
 }
+
+.container__p {
+    font-size: 2rem;
+}
+
+.container__link__link {
+    text-decoration: none;
+}
+
+.container__link__icon {
+    color: #f2f2f2;
+    font-size: 3.5rem;
+}
+
+.container__link__icon:hover {
+    color: #6ed6e8;
+} 
+
 
 
 @media screen and (max-width: 720px) {
